@@ -59,7 +59,7 @@ include 'config/db.php';
                     <?php endif; ?> 
                     
                     <a href="cart.php" class="bg-orrose text-blanc px-4 py-2 rounded-full text-sm font-medium shadow hover:bg-nude hover:text-noir transition relative inline-flex items-center">
-                        <i class="fas fa-shopping-cart mr-2"></i>Panier
+                        <i class="fas fa-shopping-cart mr-2"></i>Paniers
                     </a>
                     
                     <?php if (isset($_SESSION['user_id'])): ?>
